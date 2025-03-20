@@ -30,7 +30,7 @@
     </dependencies>
 
     <build>
-        <finalName>week7_ignclass</finalName>
+        <finalName>week7_inclass</finalName>
         <plugins>
             <!-- Maven Compiler Plugin -->
             <plugin>
