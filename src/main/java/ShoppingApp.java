@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class ShoppingApp {
 
-    private double totalCost = 0;
+    public double totalCost = 0;
     private ResourceBundle rb;
     private Locale locale;
 
@@ -38,7 +38,6 @@ public class ShoppingApp {
             rb = ResourceBundle.getBundle("messages", new Locale("en", "US"));
         }
 
-        double totalCost = 0;
         System.out.println(rb.getString("numberOfItems"));
         int numberOfItems = scanner.nextInt();
         for (int i = 0; i < numberOfItems; i++) {
