@@ -4,4 +4,4 @@ WORKDIR /app
 COPY pom.xml /app
 COPY . /app
 RUN mvn package
-CMD ["java", "-jar", "target/Week7_Inclass.jar"]
+CMD ["java", "-jar", "target/week7_inclass.jar"]
