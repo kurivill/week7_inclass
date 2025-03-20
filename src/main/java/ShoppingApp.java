@@ -38,6 +38,8 @@ public class ShoppingApp {
             rb = ResourceBundle.getBundle("messages", new Locale("en", "US"));
         }
 
+        scanner.useLocale(locale);
+
         System.out.println(rb.getString("numberOfItems"));
         int numberOfItems = scanner.nextInt();
         for (int i = 0; i < numberOfItems; i++) {
