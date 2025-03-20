@@ -6,9 +6,6 @@ pipeline {
     IMAGE_TAG = 'latest'
     }
 
-
-
-
     stages {
 
         stage('Build') {
